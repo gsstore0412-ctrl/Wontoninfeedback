@@ -1,0 +1,143 @@
+# Wontoninfeedback
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wontonin - Kritik & Saran</title>  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">  <style>
+    :root{
+      --red:#D62828;
+      --orange:#F77F00;
+      --cream:#F8E8D0;
+      --black:#1B1B1B;
+      --white:#FFFFFF;
+    }
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:'Poppins',sans-serif;
+    }
+
+    body{
+      background:var(--cream);
+      color:var(--black);
+    }
+
+    .header{
+      background:linear-gradient(135deg,var(--red),var(--orange));
+      padding:35px 20px;
+      text-align:center;
+      color:var(--white);
+    }
+
+    .header h1{
+      font-size:30px;
+      font-weight:700;
+    }
+
+    .header p{
+      margin-top:8px;
+      font-size:14px;
+      opacity:0.9;
+    }
+
+    .container{
+      max-width:520px;
+      margin:30px auto;
+      padding:0 15px;
+    }
+
+    .card{
+      background:var(--white);
+      padding:22px;
+      border-radius:18px;
+      box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    label{
+      display:block;
+      margin-top:15px;
+      font-weight:600;
+      font-size:14px;
+    }
+
+    input, select, textarea{
+      width:100%;
+      margin-top:6px;
+      padding:10px;
+      border-radius:10px;
+      border:1px solid #ddd;
+      outline:none;
+    }
+
+    textarea{
+      resize:none;
+    }
+
+    button{
+      width:100%;
+      margin-top:18px;
+      padding:12px;
+      border:none;
+      border-radius:12px;
+      background:var(--black);
+      color:var(--white);
+      font-size:15px;
+      font-weight:600;
+      cursor:pointer;
+      transition:0.2s;
+    }
+
+    button:hover{
+      background:var(--red);
+    }
+
+    .footer{
+      text-align:center;
+      margin:20px 0;
+      font-size:12px;
+      opacity:0.6;
+    }
+
+    .tag{
+      display:inline-block;
+      margin-top:10px;
+      font-size:12px;
+      background:var(--red);
+      color:white;
+      padding:4px 10px;
+      border-radius:20px;
+    }
+  </style></head>
+<body>  <div class="header">
+    <h1>Wontonin 🌶️🍜</h1>
+    <p>Kritik & saran kalian bikin kami makin pedes & enak 🔥</p>
+    <div class="tag">Homemade Food</div>
+  </div>  <div class="container">
+    <div class="card">
+      <form><label>Nama (opsional)</label>
+    <input type="text" placeholder="Nama kamu..." />
+
+    <label>Rating</label>
+    <select>
+      <option>⭐</option>
+      <option>⭐⭐</option>
+      <option>⭐⭐⭐</option>
+      <option>⭐⭐⭐⭐</option>
+      <option>⭐⭐⭐⭐⭐</option>
+    </select>
+
+    <label>Kritik & Saran</label>
+    <textarea rows="5" placeholder="Tulis pengalaman kamu di sini..."></textarea>
+
+    <button type="submit">Kirim Masukan 🌶️</button>
+  </form>
+</div>
+
+<div class="footer">
+  © 2026 Wontonin - All Rights Reserved ❤️
+</div>
+
+  </div></body>
+</html>
